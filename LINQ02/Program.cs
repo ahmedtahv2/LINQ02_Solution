@@ -73,6 +73,12 @@ namespace LINQ02
             //var result = setA.Except(setB); 
             #endregion
 
+            #region Q14
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+
+            //var result = list1.Except(list2,StringComparer.OrdinalIgnoreCase); 
+            #endregion
 
 
             //foreach (var product in result)
