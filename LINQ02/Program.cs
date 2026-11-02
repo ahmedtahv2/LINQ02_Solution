@@ -16,10 +16,19 @@ namespace LINQ02
             //var result = ProductList.Skip(5).Take(5); 
             #endregion
 
+            #region Q3
+            //var result = ProductList.OrderBy(p => p.UnitPrice)
+            //                        .TakeWhile(p => p.UnitPrice < 25m); 
+            #endregion
 
+            #region Q4
+            //        bool resut2 = ProductList.Where(p => p.Category == "Seafood")
+            //.All(p => p.UnitsInStock > 0);
+            //        Console.WriteLine(resut2); 
+            #endregion
 
-            foreach (var product in result)
-                Console.WriteLine(product);
+            //foreach (var product in result)
+            //    Console.WriteLine(product);
 
         }
     }
