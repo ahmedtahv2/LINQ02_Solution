@@ -62,6 +62,9 @@ namespace LINQ02
             //Console.WriteLine($"Most: {mostExpensivePrice}"); 
             #endregion
 
+            #region Q12
+            //        var result = ProductList.Select(p => p.Category).Distinct(); 
+            #endregion
 
             //foreach (var product in result)
             //    Console.WriteLine(product);
