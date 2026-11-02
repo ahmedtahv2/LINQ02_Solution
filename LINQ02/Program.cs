@@ -54,6 +54,15 @@ namespace LINQ02
             //Console.WriteLine(totalUnitsInStock); 
             #endregion
 
+            #region Q11
+            //decimal cheapestPrice = ProductList.Min(p => p.UnitPrice);
+            //decimal mostExpensivePrice = ProductList.Max(p => p.UnitPrice);
+
+            //Console.WriteLine($"Cheapest: {cheapestPrice}");
+            //Console.WriteLine($"Most: {mostExpensivePrice}"); 
+            #endregion
+
+
             //foreach (var product in result)
             //    Console.WriteLine(product);
 
