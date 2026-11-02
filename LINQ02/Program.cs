@@ -43,6 +43,17 @@ namespace LINQ02
             //} 
             #endregion
 
+            #region Q8
+            //        var result = ProductList.GroupBy(p => p.Category)
+            //.Where(g => g.Count() > 3)
+            //.Select(g => g.Key);
+            #endregion
+
+            #region Q10
+            //int totalUnitsInStock = ProductList.Sum(p => p.UnitsInStock);
+            //Console.WriteLine(totalUnitsInStock); 
+            #endregion
+
             //foreach (var product in result)
             //    Console.WriteLine(product);
 
