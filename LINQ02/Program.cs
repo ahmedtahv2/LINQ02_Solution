@@ -93,10 +93,17 @@ namespace LINQ02
             //Console.WriteLine(result2); 
             #endregion
 
+            #region Q17
+            //var result2 = ProductList.FirstOrDefault(p => p.UnitPrice > 500m);
+            //Console.WriteLine(result2); 
+            #endregion
 
+            #region Q18
+            //var result = Enumerable.Range(1, 12).Select(n => $"7 x {n} = {7 * n}");
 
-            //foreach (var product in result)
-            //    Console.WriteLine(product);
+            #endregion
+            foreach (var product in result)
+                Console.WriteLine(product);
 
         }
     }
