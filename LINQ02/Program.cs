@@ -87,6 +87,12 @@ namespace LINQ02
             //    Console.WriteLine(product); 
             #endregion
 
+            #region Q16
+            //var result2 = ProductList.First(p => p.UnitPrice > 50m);
+
+            //Console.WriteLine(result2); 
+            #endregion
+
 
 
             //foreach (var product in result)
