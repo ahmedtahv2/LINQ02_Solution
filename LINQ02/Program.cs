@@ -7,8 +7,12 @@ namespace LINQ02
     {
         static void Main(string[] args)
         {
+            #region Q1
             var result = ProductList.OrderByDescending(p => p.UnitPrice)
-                                  .Take(3);
+                                      .Take(3); 
+            #endregion
+
+
 
             foreach (var product in result)
                 Console.WriteLine(product);
