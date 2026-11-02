@@ -102,6 +102,11 @@ namespace LINQ02
             //var result = Enumerable.Range(1, 12).Select(n => $"7 x {n} = {7 * n}");
 
             #endregion
+
+            #region Q19
+            //var result = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
+
+            #endregion
             foreach (var product in result)
                 Console.WriteLine(product);
 
