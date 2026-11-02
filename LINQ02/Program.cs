@@ -107,6 +107,14 @@ namespace LINQ02
             //var result = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
 
             #endregion
+
+            #region Q20
+            //        var result = ProductList.Take(3)
+            //.Select(p => p.ProductName)
+            //.Concat(CustomerList.Take(3).Select(c => c.CustomerName)); 
+            #endregion
+
+
             foreach (var product in result)
                 Console.WriteLine(product);
 
