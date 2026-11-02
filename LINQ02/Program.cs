@@ -80,6 +80,14 @@ namespace LINQ02
             //var result = list1.Except(list2,StringComparer.OrdinalIgnoreCase); 
             #endregion
 
+            #region Q15
+            //Dictionary<int, Product> result2 = ProductList.ToDictionary(p => p.ProductID);
+
+            //if (result2.TryGetValue(18, out var product))
+            //    Console.WriteLine(product); 
+            #endregion
+
+
 
             //foreach (var product in result)
             //    Console.WriteLine(product);
