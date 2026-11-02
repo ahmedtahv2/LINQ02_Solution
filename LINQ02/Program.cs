@@ -43,6 +43,24 @@ namespace LINQ02
             //} 
             #endregion
 
+            #region Q7
+            //        var namesByCategory = ProductList
+            //.GroupBy(p => p.Category)
+            //.Select(g => new
+            //{
+            //    Category = g.Key,
+            //    ProductNames = g.Select(p => p.ProductName)
+            //});
+
+            //        foreach (var group in namesByCategory)
+            //        {
+            //            Console.WriteLine(group.Category);
+
+            //            foreach (var name in group.ProductNames)
+            //                Console.WriteLine(name);
+            //        } 
+            #endregion
+
             #region Q8
             //        var result = ProductList.GroupBy(p => p.Category)
             //.Where(g => g.Count() > 3)
@@ -114,9 +132,15 @@ namespace LINQ02
             //.Concat(CustomerList.Take(3).Select(c => c.CustomerName)); 
             #endregion
 
+            #region Q21
+            //        var result = ProductList.Zip(
+            //CustomerList,
+            //(product, customer) =>
+            //    $"{product.ProductName} sold to {customer.CustomerName}"); 
+            #endregion
 
-            foreach (var product in result)
-                Console.WriteLine(product);
+            //foreach (var product in result)
+            //    Console.WriteLine(product);
 
         }
     }
